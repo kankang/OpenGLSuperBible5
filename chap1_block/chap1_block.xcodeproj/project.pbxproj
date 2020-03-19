@@ -11,15 +11,23 @@
 		62B09A92241F467A009608B2 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B09A91241F4679009608B2 /* GLUT.framework */; };
 		62B09A94241F4680009608B2 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B09A93241F4680009608B2 /* OpenGL.framework */; };
 		62B09AE6241F4815009608B2 /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B09AE5241F4809009608B2 /* libGLTools.a */; };
+		62B09B05241FBD0C009608B2 /* Block4.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62B09A8C241F44EC009608B2 /* Block4.tga */; };
+		62B09B06241FBD0C009608B2 /* Block5.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62B09A89241F44EC009608B2 /* Block5.tga */; };
+		62B09B07241FBD0C009608B2 /* Block6.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62B09A8B241F44EC009608B2 /* Block6.tga */; };
+		62B09B08241FBD0C009608B2 /* floor.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62B09A8A241F44EC009608B2 /* floor.tga */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		62B09A6A241F449D009608B2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
+			dstPath = /usr/share/man/man1;
 			dstSubfolderSpec = 0;
 			files = (
+				62B09B05241FBD0C009608B2 /* Block4.tga in CopyFiles */,
+				62B09B06241FBD0C009608B2 /* Block5.tga in CopyFiles */,
+				62B09B07241FBD0C009608B2 /* Block6.tga in CopyFiles */,
+				62B09B08241FBD0C009608B2 /* floor.tga in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
