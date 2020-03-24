@@ -7,4 +7,13 @@
    <FileRef
       location = "group:chap1_block/chap1_block.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:chap2_triangle/chap2_triangle.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:chap2_move/chap2_move.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:chap2_bounce/chap2_bounce.xcodeproj">
+   </FileRef>
 </Workspace>

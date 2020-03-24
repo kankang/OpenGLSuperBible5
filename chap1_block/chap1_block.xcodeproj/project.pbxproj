@@ -17,6 +17,16 @@
 		62B09B08241FBD0C009608B2 /* floor.tga in CopyFiles */ = {isa = PBXBuildFile; fileRef = 62B09A8A241F44EC009608B2 /* floor.tga */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		621A22FC242A352B0033E646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 621A22F8242A352B0033E646 /* chap2_move.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 621A22EC242A24710033E646;
+			remoteInfo = chap2_move;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXCopyFilesBuildPhase section */
 		62B09A6A241F449D009608B2 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -34,6 +44,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		621A22F8242A352B0033E646 /* chap2_move.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = chap2_move.xcodeproj; path = ../chap2_move/chap2_move.xcodeproj; sourceTree = "<group>"; };
 		62B09A6C241F449D009608B2 /* chap1_block */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = chap1_block; sourceTree = BUILT_PRODUCTS_DIR; };
 		62B09A88241F44EC009608B2 /* Block.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Block.cpp; sourceTree = "<group>"; };
 		62B09A89241F44EC009608B2 /* Block5.tga */ = {isa = PBXFileReference; lastKnownFileType = file; path = Block5.tga; sourceTree = "<group>"; };
@@ -74,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		621A22F9242A352B0033E646 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				621A22FD242A352B0033E646 /* chap2_move */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		62B09A63241F449D009608B2 = {
 			isa = PBXGroup;
 			children = (
@@ -107,6 +126,7 @@
 		62B09A8E241F450B009608B2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				621A22F8242A352B0033E646 /* chap2_move.xcodeproj */,
 				62B09AD3241F47FA009608B2 /* libGLTools.a */,
 				62B09A93241F4680009608B2 /* OpenGL.framework */,
 				62B09A91241F4679009608B2 /* GLUT.framework */,
@@ -198,12 +218,28 @@
 			mainGroup = 62B09A63241F449D009608B2;
 			productRefGroup = 62B09A6D241F449D009608B2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 621A22F9242A352B0033E646 /* Products */;
+					ProjectRef = 621A22F8242A352B0033E646 /* chap2_move.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				62B09A6B241F449D009608B2 /* chap1_block */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		621A22FD242A352B0033E646 /* chap2_move */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = chap2_move;
+			remoteRef = 621A22FC242A352B0033E646 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXSourcesBuildPhase section */
 		62B09A68241F449D009608B2 /* Sources */ = {
@@ -334,6 +370,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = ../GLTools/include;
 				LIBRARY_SEARCH_PATHS = ../GLTools;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -347,6 +384,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				HEADER_SEARCH_PATHS = ../GLTools/include;
 				LIBRARY_SEARCH_PATHS = ../GLTools;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
