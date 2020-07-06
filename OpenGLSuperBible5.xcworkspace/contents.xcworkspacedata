@@ -2,6 +2,18 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:chap3_smooth/chap3_smooth.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:chap3_scssor/chap3_scssor.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:chap3_blend/chap3_blend.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:chap3_geo/chap3_geo.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:chap3_primitives/chap3_primitives.xcodeproj">
    </FileRef>
    <FileRef
